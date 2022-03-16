@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="icon" type="image/x-icon" href="Netflix_icon.svg.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+</style>
+
+<body class="bg-black">
+
+    <header class="w-full">
+        
+        <section class="fixed z-50 w-full bg-gradient-to-b from-black">
+            <section class=" lg:hidden">
+                <div class="flex justify pt-2 pl-12 pr-12 place-content-center">
+                    <a href="#">
+                        <img src="nomnetflix.png" alt="Netflix" width="100">
+                    </a>
+                </div>
+            </section>
+            <section class="hidden lg:block">
+                <div class="flex justify-between pt-2 pl-12 pr-12 items-center text-white">
+                    <div class="flex items-center flex space-x-5">
+                        <a href="#">
+                            <img src="nomnetflix.png" alt="Netflix" width="100" class="cursor-pointer">
+                        </a>
+                        <a href="#" class="hover:text-gray-400">Home</a>
+                        <a href="#" class="hover:text-gray-400">TV shows</a>
+                        <a href="#" class="hover:text-gray-400">Movies</a>
+                        <a href="#" class="hover:text-gray-400">New & Popular</a>
+                        <a href="#" class="hover:text-gray-400">My list</a>
+                        <a href="#" class="hover:text-gray-400">Watch again</a>
+                    </div>
+                    <div class="flex place-content-end items-center space-x-6">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-gift"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                        <a href="#" class="flex items-center space-x-2">
+                            <img src="avatar.png" alt="" class="rounded-md" width="32px">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+       
+        
+        <section class="h-screen w-full inset-0 overflow-hidden">
+            <div class="space-y-5 z-10 absolute mt-40 w-auto mx-12">
+                <img src="https://www.designbust.com/download/1037/png/netflix_logo_png_transparet512.png"  class="h-10 w-10" viewBox="0 0 24 24" >
+                <p class="text-white max-w-sm lg:max-w-xl text-justify text-xl leading-7">In a crazy hospital in Paris, three eccentric employees chain misadventures with surgical imprecision.</p>
+                <div class="space-x-8 ">
+                    <button type="button"
+                        class="py-1 px-6 bg-white text-black text-xl font-semibold rounded-md hover:opacity-50">
+                        <i class="fa-solid fa-play"></i>
+                        Play
+                    </button>
+                    <button type="button"
+                        class="py-1 px-6 bg-gray-600 bg-opacity-50 text-xl text-white font-semibold rounded-md hover:opacity-50">
+                        <i class="fa-solid fa-circle-info"></i>
+                        More info
+                    </button>
+                </div>
+            </div>
+            <div class="absolute bg-cover bg-top w-full h-full w-full" alt=""
+                style="background-image: url(hbis2.png)"></div>
+            <div class="absolute bg-cover bg-top w-full h-full bg-gradient-to-t from-black via-transparent" alt="">
+            </div>
+        </section>
+    </header>
